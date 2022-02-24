@@ -14,4 +14,4 @@ if (isset($_GET['id'])) {
         $_SESSION['hasil_delete'] = false;
     }
 }
-echo "<meta http-equiv='refresh' content='0;url=?page=lokasiread'>";
+echo "<meta http-equiv='refresh' content='0;url=?page=lokasiread'>"; 
