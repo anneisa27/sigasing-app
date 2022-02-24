@@ -5,7 +5,7 @@
         $db = $database->getConnection();
 
         // ini untuk validasi input
-        $validasi = "SELECT * FROM lokasi WHERE nama_lokasi = ?";
+        $validasi = "SELECT * FROM lokasi WHERE nama_lokasi = ?"; 
         $stmt = $db->prepare($validasi);
         $stmt->bindParam(1, $_POST['nama_lokasi']);
         $stmt->execute();
