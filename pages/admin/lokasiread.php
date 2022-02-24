@@ -38,7 +38,7 @@
                         <th>Opsi</th>
                     </tr>
                 </tfoot>
-                <tbody>
+                <tbody> 
                     <?php
                     $database = new Database();
                     $db = $database->getConnection();
