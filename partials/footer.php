@@ -4,4 +4,4 @@
       </div>
       <!-- Default to the left -->
       <strong>Copyright &copy; 2022 <a href="#">Praktikum Web PHP</a>.</strong> All rights reserved.
-  </footer>
+  </footer> 
