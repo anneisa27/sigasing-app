@@ -80,4 +80,4 @@
     $(function() {
         $('#mytable').DataTable()
     });
-</script>
+</script> 
