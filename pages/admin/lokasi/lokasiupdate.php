@@ -24,7 +24,7 @@ if (isset($_GET['id'])) {
     $stmt->bindParam(1, $_GET['id']);
     $stmt->execute();
     $row = $stmt->fetch();
-    if (isset($row['id'])) {
+    if (isset($row['id'])) { 
 ?>
         <section class="content-header">
             <div class="container-fluid">
